@@ -4,6 +4,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+
+<!--
+    index.html
+    HOME/MAIN PAGE
+-->
 <html>
 	<head>
 		<title>Gabriel Rivera's Portfolio</title>
@@ -20,123 +26,134 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="index.html">Gabriel Rivera's Portfolio</a></h1>
-					</header>					
+						<nav><a href="#menu">Menu</a></nav>
+					</header>
+					
+				<!-- Nav Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="#">Home</a></li>
+								<li><a href="/pages/resume.html">Resume</a></li>
+								<li><a href="/pages/projects.html">Projects</a></li>
+								<li><a href="/pages/about_me.html">About Me</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
 
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="icon solid fa-code"></span></div>
+							<div class="logo"><span class="icon solid fa-mug-hot"></span></div>
 							<h2>My name is Gabriel Rivera</h2>
-							<p>This is a portfolio of the various projects I have worked on throughout my personal/college career.</p>
-							<h3>About me</h3>
-							<p>I am a Computer Science major at California State University, Fullerton. I 
-								have experience in working with C++, Python, .NET Razor Pages, Firebase, and 
-								various other languages and resources. I have also taken various classes involving concepts
-								such as AI, Software Engineering, Data Structures, Front-End Web Development, and many more.
+							<p>
+								I am a Computer Science student at California State University, Fullerton. I am interested
+								in working any coding projects that are related in any field of Computer Science. I 
+								have experience in working with C++, Python, JavaScript Firebase, DiscordJS, NodeJS, , Swift 
+								and various other languages and resources.
 							</p>
 						</div>
+
 					</section>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 
 						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Networking App</h2>
-										<p>This website, designed using .NET Razer Pages and Firebase, is a networking forum.
-											This was a group project for my Software Engineering class. We did not have a chance
-											 to complete the project, however I learned a lot about Firebase, .NET, HTML, and various Software
-											 Engineering concepts.
-										</p>
-										<a href="https://github.com/gRivera3663/Networking-App" class="special">View the code</a>
-									</div>
-								</div>
-							</section>
+						<section id="one" class="wrapper style1">
+							<div class="inner">
+								<center>
+									<h2 class="major">Featured Project</h2>
+									<a href="https://github.com/gRivera3663/Wave-Bot"><h2>Wave Bot</h2></a>
+									<a href="https://github.com/gRivera3663/Wave-Bot" class="image"><img src="/images/wave.PNG" alt="" /></a>
+								</center>
+							</div>
+						</section>
 
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Pet Connect</h2>
-										<p>This website was the first group project for my Web Front-End Development class. This was
-											made with HTML, Javascript, PHP, SQL, and css. We used Bootstrap for styling as well. The website
-											  is meant to be a site you can make an account, take a quiz about your dog, and then you're able to
-											set up play dates for your dog. My main contribution was the css and html of all the login processes
-											and the quiz portion that is seen before proceeding to the home page. </p>
-										<a href="https://github.com/gRivera3663/CSPC349-Project1-1" class="special">View the code</a>
-									</div>
-								</div>
-							</section>
+
+						<section id="two" class="wrapper alt style2">
+							<div class="inner">
+								<center>
+									<p>
+										Wave Bot is a <a href="https://discord.com/">Discord</a> bot I created for my personal Discord server.
+										It's coded using Javascript, DiscordJS, NodeJS, and other various resources. I created it because I wanted to find a way to connect my 
+										love for gaming and coding in a constructive and fun way. I use Discord a lot for gaming, and always had an interest in building a bot. This was a challenge 
+										for me since I don't have a lot of Javascript/NodeJS experience, but I was able to complete my personal goal and finish making 
+										the bot with its initial features. I am planning on adding more features in the future. 
+									</p>
+								</center>
+							</div>
+						</section>
 
 						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Covid Tracker</h2>
-										<p>This was the final group project for my Web Front-End Development class. This is a website that tracks the 
-											number of COVID-19 cases, deaths, etc. This is done using the <a href="https://corona.lmao.ninja/">NovelCOVID API</a>
-											which is how the tracking data is obtained. We first used <a href="https://github.com/colbyfayock/gatsby-starter-leaflet">this</a> starter
-											code to begin the website, and then added onto it. This project was written with Javascript, HTML, CSS, and Gatsby. There 
-											are also  different extensions we installed via npm that are used in the project. All these can be seen in the GitHub repository readme.
-										</p>
-										<a href="https://github.com/gRivera3663/Covid19Project" class="special">View the code</a>
-									</div>
-								</div>
-							</section>
+						<section id="three" class="wrapper style3">
+							<div class="inner">
+								<h2 class="major">More Information on Wave Bot</h2>
+
+								<h3>How it's made</h3>
+								<p>
+									Wave Bot is made with DiscordJS, NodeJS, Javascript, FFMPEG, and other npm resources. <a href="https://discord.js.org/#/">DiscordJS</a>
+									is a NodeJS module that works hand-in-hand to work with the Discord API using the Javascript language.
+									<a href="https://ffmpeg.org/">FFMPEG</a> is a framework that lets you encode, decode, filter, play, and other
+									features with forms of audio and video. There were also some npm resources that were used that include
+									<a href="https://www.npmjs.com/package/dotenv">dotenv</a>, <a href="https://www.npmjs.com/package/ytdl-core">ytdl-core</a>, <a href="https://www.npmjs.com/package/opusscript">opusscript</a>, and <a href="https://www.npmjs.com/package/nodemon">nodemon</a>.
+								</p>
+
+								<h2>Features</h2>
+								<h3>Responds to Users</h3>
+								<p>
+									With certain commands the bot responds in a certain way. This can be in the form of a simple text reply, a YouTube video
+									, or even a photo.
+								</p>
+								<center>
+									<img src="/images/help_command.PNG" width="100%" style="padding-bottom: 10px;">
+								</center>
+
+								<h3>Sound Effects</h3>
+								<p>
+									If a user is in a voice channel and types in a certain command, the bot will enter the channel that user is
+									in and will play a certain sound effect. The different commands determine a different sound.
+								</p>
+
+								<h3>Admin Abilities</h3>
+								<p>
+									This bot has certain admin commands if there is an indicated admin channel. If a user sends the bot a direct
+									message, the bot sends that message to the admin channel where all admins are able to see it. Any admins can
+									then respond with a command for admins only. When used the bot can directly message a user with a specific message.
+									This is helpful if an admin needs to privately handle issues with users, or users are able to send
+									issues on the server without making them public.
+								</p>
+								<center>
+										<img src="/images/message_command.PNG" style="padding-bottom: 10px;">
+								</center>
+
+								<h3>Share Songs from Spotify</h3>
+								<p>
+									Discord gives their users the ability to link their accounts with a <a href="https://www.spotify.com/us/">Spotify</a> account.
+									If their user is linked with their account and they have given Discord permission to share their Spotify activity on their
+									account, they are able to use a certain command. This command, once typed, shares the current song they are listening to, and
+									sends it to the server's music channel. This includes a link to the song.
+								</p>
+								<center>
+									<img src="/images/spotify_share.PNG" style="padding-bottom: 10px;">
+								</center>
+
+
+							</div>
+						</section>
 
 						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Other various projects</h2>
-									<p>Here are some of my other projects that show the progress that I have made throughout my coding/school career.
-										These are a mix of school projects and personal projects to show my abilities as a coder/programmer.
-									</p>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Change Dispenser</h3>
-											<p>Program that determines the amount of change that is given back to the user in the form of dollars and coins.</p>
-											<a href="https://github.com/gRivera3663/Change-Dispenser" class="special">View the code</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Edit Distance Program</h3>
-											<p>Determines the number of changes, or edit distance, needed in order to change one word to another. For example, 
-												between "cat" and "cot" the edit distance would be 1. This is due to changing the "a" to an "o."</p>
-											<a href="https://github.com/gRivera3663/Edit-Distance" class="special">View the code</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">CPSC 131 - Project 4</h3>
-											<p></p>
-											<a href="https://github.com/gRivera3663/Project-4" class="special">View the code</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<h3 class="major">Random Number Game</h3>
-											<p>This is a terminal based game where either the user or the computer picks a random number and the other guesses
-												what that number is. This game was written in C++, and I am planning on rewriting this game so that it can be
-												on a web page instead of a terminal.</p>
-											<a href="#" class="special">View the code</a>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="https://github.com/gRivera3663?tab=repositories" class="button">See more of my work</a></li>
-									</ul>
-								</div>
-							</section>
-							
-						<!-- Five -->
-							<!--
-							<section id="five" class="wrapper style2">
-							</section>
-							-->
+						<section id="four" class="wrapper alt style4">
+							<div class="inner">
+								<center>
+									<a href="https://github.com/gRivera3663/Wave-Bot" class="image"><img src="/images/view-on-github.png" width="100%" style="padding-bottom: 10px;"></a>
+								</center>
+							</div>
+						</section>
 
+													
 					</section>
 
 				<!-- Footer -->
@@ -146,10 +163,10 @@
 							<p>If you have any questions regarding my work, or wish to share any information regarding any opportunities, feel free to contact me via any one of my forms of contact.</p>
 							<ul class="contact">
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/gabriel-rivera-7b4a24171/">LinkedIn</a></li>
-								<li class="icon brands fa-github"><a href="https://github.com/gRivera3663">Github</a></li>
+								<li class="icon brands fa-google"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=gabrielrivera457@gmail.com">gabrielrivera457@gmail.com</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
